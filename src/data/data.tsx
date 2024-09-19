@@ -1,19 +1,19 @@
 import {
-  AcademicCapIcon,
+  /*AcademicCapIcon,*/
   ArrowDownTrayIcon,
-  BuildingOffice2Icon,
-  CalendarIcon,
+  /*BuildingOffice2Icon, */
+ /* CalendarIcon,*/
   FlagIcon,
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
+/*import InstagramIcon from '../components/Icon/InstagramIcon';*/
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
+/*import TwitterIcon from '../components/Icon/TwitterIcon';*/
+import heroImage from '../images/nasa-_Ya__WUgeUg-unsplash.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -25,7 +25,9 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/avblackhair.png';
+
+
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -44,8 +46,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Stephan Online Resume',
+  description: "Stephan's Resume and projects",
 };
 
 /**
@@ -69,19 +71,13 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Stephan Wong`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        Im a Phoenix based <strong className="text-stone-100">Full Stack Software Engineer</strong>. 
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
-      </p>
+
     </>
   ),
   actions: [
@@ -108,12 +104,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Phoenix, AZ', Icon: MapIcon},
+    /*{label: 'Age', text: '45', Icon: CalendarIcon},*/
+    {label: 'Nationality', text: 'American', Icon: FlagIcon},
+    {label: 'Interests', text: 'Cars, Science, Computers ', Icon: SparklesIcon},
+  /*  {label: 'Study', text: 'Arizona State', Icon: AcademicCapIcon}, */
+  /*  {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon}, */
   ],
 };
 
@@ -129,12 +125,8 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
+        name: 'Cantonese',
         level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
       },
     ],
   },
@@ -340,23 +332,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'xxxx',
+      href: 'mailto:xx',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Phoenix,Arizona, USA',
+      href: 'https://www.google.com/maps/place/Phoenix,+AZ',
     },
-    {
+  /*  {
       type: ContactType.Instagram,
       text: '@tbakerx',
       href: 'https://www.instagram.com/tbakerx/',
-    },
+    },*/
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'skwong-code',
+      href: 'https://github.com/skwong-code/',
     },
   ],
 };
@@ -365,9 +357,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/skwong-code'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackexchange.com/users/19616383/stephan-wong'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/stephan-wong'},
+ /* {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'}, */
+/*  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'}, */
 ];
