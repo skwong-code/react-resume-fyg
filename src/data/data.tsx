@@ -75,7 +75,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Im a Phoenix based <strong className="text-stone-100">Full Stack Software Engineer</strong>. 
+      Proactive and experienced Software Engineer with a diverse skill set in various programming languages and agile development practices. Known for adept problem-solving abilities and excellent communication prowess. Pursuing a stimulating Software Engineer role to apply technical expertise and drive the innovation of state-of-the-art software solutions. 
       </p>
 
     </>
